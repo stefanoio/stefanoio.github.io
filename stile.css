@@ -1,0 +1,115 @@
+@font-face {
+	font-family: 'MuseoSub';
+	src: url('museo500-regular-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'MuseoSubSans';
+	src: url('museosans-300-webfont.woff') format('woff');
+}
+header,footer,body::before{
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTAwMCA2NDAiIGZpbGw9IiM0NDQ3NEEiPjxwYXRoIGlkPSJwIiBkPSJNMTA3LDMwOUExOTQsMTMyLTM0LDEsMSwzNTQsMTA2QTIzNSw2NC00MSwwLDAsMTA3LDMwOU01MDEsNjQwYTc3LDUzLDAsMSwxLDAtMTA2TTIyMCwzODNhMTIyLDgzLTM0LDEsMCwyMDksMGExMjIsODMtMzQsMSwwLTIwOSwwTTMyMiwzNjFhMjUsMjUsMCwxLDAsNTAsMGEyNSwyNSwwLDEsMC01MCwwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48dXNlIHhsaW5rOmhyZWY9IiNwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAwKSBzY2FsZSgtMSwxKSIvPjwvc3ZnPg==) no-repeat;
+}
+::selection{
+	color: #b3b8b8;
+	background: #262a2c;
+}
+html,body{
+	height: 100%;
+	margin: 0;
+	background: #494f52;
+	font-size: 10px;
+}
+header{
+	height: 100%;
+	min-height: 50rem;
+	background-color: #fff;
+	background-position: 5% 15%;
+	background-size: auto 60%;
+	position: relative;
+	z-index: 2;
+	color: #494f52;
+}
+body::before{
+	content: "";
+	display: block;
+	position: fixed;
+	top: 5%;
+	right: 2%;
+	width: 100%;
+	height: 20%;
+	background-position: right center;
+	background-size: auto 100%;
+}
+h1{
+	margin: 0;
+	font: 7.2rem MuseoSub;
+	position: absolute;
+	bottom: 6%;
+	right: 5%;
+	padding-left: 5rem
+}
+h1 strong{
+	font-weight: normal;
+}
+article{
+	min-height: 100%;
+	position: relative;
+	font: 3.8rem MuseoSubSans;
+	color: #b3b8b8;
+	padding: 10rem 10rem 12rem 0
+}
+p{
+	margin: 0;
+	padding: 2rem 5rem 5rem 8rem;
+}
+h2{
+	margin: 0;
+	padding: 5rem 5rem 9rem 5rem;
+	font-weight: normal;
+	font-size: 5.4rem
+}
+q{
+	position: absolute;
+	bottom: 2rem;
+	right: 2rem;
+	font: 2.6rem MuseoSub;
+}
+q:before,
+q:after{
+	content: none;
+}
+footer{
+	min-height: 120%;
+	background-color: #fff;
+	background-position: -10% 120%;
+	background-size: auto 40%;
+	position: relative;
+	color: #494f52;
+	font: 7.2rem MuseoSub;
+	padding: 20rem 20rem 30rem 20rem;
+	box-sizing: border-box;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+	border: 0 dashed;
+	border-bottom-width: 1px;
+}
+a:active{
+	border-bottom-style: dotted;
+}
+@media only screen and (max-width: 768px){
+	html{
+		font-size: 8px
+	}
+}
+@media only screen and (max-width: 620px){
+	html{
+		font-size: 6px
+	}
+}
+@media only screen and (max-width: 480px){
+	html{
+		font-size: 5px
+	}
+}
