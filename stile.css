@@ -7,7 +7,7 @@
 	src: url('museosans-300-webfont.woff') format('woff');
 }
 header,footer,body::before{
-	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTAwMCA2NDAiIGZpbGw9IiM0NDQ3NEEiPjxwYXRoIGlkPSJwIiBkPSJNMTA3LDMwOUExOTQsMTMyLTM0LDEsMSwzNTQsMTA2QTIzNSw2NC00MSwwLDAsMTA3LDMwOU01MDEsNjQwYTc3LDUzLDAsMSwxLDAtMTA2TTIyMCwzODNhMTIyLDgzLTM0LDEsMCwyMDksMGExMjIsODMtMzQsMSwwLTIwOSwwTTMyMiwzNjFhMjUsMjUsMCwxLDAsNTAsMGEyNSwyNSwwLDEsMC01MCwwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48dXNlIHhsaW5rOmhyZWY9IiNwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAwKSBzY2FsZSgtMSwxKSIvPjwvc3ZnPg==) no-repeat;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 640' fill='%2344474A'%3E%3Cpath id='p' d='M107,309A194,132-34,1,1,354,106A235,64-41,0,0,107,309M501,640a77,53,0,1,1,0-106M220,383a122,83-34,1,0,209,0a122,83-34,1,0-209,0M322,361a25,25,0,1,0,50,0a25,25,0,1,0-50,0' fill-rule='evenodd'/%3E%3Cuse href='%23p' transform='translate(1000) scale(-1,1)'/%3E%3C/svg%3E") no-repeat;
 }
 ::selection{
 	color: #b3b8b8;
